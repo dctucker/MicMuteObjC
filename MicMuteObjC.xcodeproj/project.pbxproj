@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9D7E7F31C66E0B00066AF55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7E7F21C66E0B00066AF55 /* main.m */; };
+		C9D7E7FA1C66E1640066AF55 /* MicMute.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D7E7F91C66E1640066AF55 /* MicMute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C9D7E7EF1C66E0B00066AF55 /* MicMuteObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MicMuteObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D7E7F21C66E0B00066AF55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9D7E7F91C66E1640066AF55 /* MicMute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MicMute.m; sourceTree = "<group>"; wrapsLines = 0; };
+		C9D7E7FB1C66E1AB0066AF55 /* MicMute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicMute.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C9D7E7F21C66E0B00066AF55 /* main.m */,
+				C9D7E7F91C66E1640066AF55 /* MicMute.m */,
+				C9D7E7FB1C66E1AB0066AF55 /* MicMute.h */,
 			);
 			path = MicMuteObjC;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D7E7FA1C66E1640066AF55 /* MicMute.m in Sources */,
 				C9D7E7F31C66E0B00066AF55 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
