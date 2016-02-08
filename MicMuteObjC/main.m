@@ -15,7 +15,19 @@ int main(int argc, const char * argv[]) {
         // float vol = [MicMute volume];
         // NSLog(@"Hello, World! %.2f", vol);
         // [MicMute setVolume:0.5];
-        [MicMute toggleMute];
+        UInt32 muted = [MicMute toggleMute];
+        if( muted == 0 )
+        {
+            printf("Un-muted\n");
+        }
+        else if( muted == 1 )
+        {
+            printf("Muted\n");
+        }
+        else
+        {
+            return 1;
+        }
     }
     return 0;
 }

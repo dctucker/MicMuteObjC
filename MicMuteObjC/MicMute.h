@@ -14,10 +14,8 @@
 
 @interface MicMute : NSObject
 
-+(float)volume;
-+(void)setVolume:(Float32)newVolume;
 +(AudioDeviceID)defaultInputDeviceID;
-+(void)toggleMute;
++(UInt32)toggleMute;
 
 @end
 
